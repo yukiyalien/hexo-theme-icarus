@@ -26,7 +26,9 @@
                 <span class="level-item has-text-grey">
                     <% const words = word_count(post._content); %>
                     <% const time = duration((words / 150.0) * 60, 'seconds') %>
-                    <%= `${ time.locale(get_config('language', 'en')).humanize() } ${ __('article.read')} (${ __('article.about') } ${ words } ${ __('article.words') })` %>
+                    <% var para = "約" %>
+                    <div><%= para %></div>
+                    <%= `${time.locale(get_config('language', 'ja')).humanize() } ${ __('article.read')} (${ __('article.about') } ${ words } ${ __('article.words') })` %>
                 </span>
                 <% } %>
                 <% if (!index && (has_config('plugins.busuanzi') ? get_config('plugins.busuanzi') : false)) { %>

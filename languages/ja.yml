@@ -22,9 +22,9 @@ widget:
 article:
     more: 'Read More'
     comments: 'コメント'
-    read: 'read'
-    about: 'About'
-    words: 'words'
+    read: 'で読めます'
+    about: '約'
+    words: '語'
 search:
     search: 'Search'
     hint: 'Type something...'
