@@ -1,7 +1,7 @@
 # Version of the Icarus theme that is currently used
 version: 2.6.0
 # Path or URL to the website's icon
-favicon: /source/images/favicon.png
+favicon: /images/favicon.png
 # Additional HTML meta tags in an array.
 meta: 
 # canonical_url of your site
@@ -9,7 +9,7 @@ canonical_url:
 # Path or URL to RSS atom.xml
 rss: 
 # Path or URL to the website's logo to be shown on the left of the navigation bar or footer
-logo: /source/images/logo.png
+logo: /images/logo.png
 # Open Graph metadata
 # https://hexo.io/docs/helpers.html#open-graph
 open_graph:
@@ -129,7 +129,7 @@ widgets:
         # Author's current location to be shown in the profile widget
         location: Chiba, Japan
         # Path or URL to the avatar to be shown in the profile widget
-        avatar: /source/images/avatar.png
+        avatar: /images/avatar.png
         # Email address for the Gravatar to be shown in the profile widget
         gravatar: 
         # Whether to show avatar image rounded or square
