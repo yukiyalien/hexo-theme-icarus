@@ -22,9 +22,9 @@ module.exports = {
         ...require('./icon_link.spec'),
         [doc]: 'Navigation bar links to be shown on the right',
         [defaultValue]: {
-            'Download on GitHub': {
-                icon: 'fab fa-github',
-                url: 'https://github.com/ppoffice/hexo-theme-icarus'
+            '@yukiyalien': {
+                icon: 'fab fa-twitter',
+                url: 'https://twitter.com/yukiyalien'
             }
         }
     }
