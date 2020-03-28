@@ -18,9 +18,9 @@ open_graph:
     # Facebook Admin ID
     fb_admins: 
     # Twitter ID
-    twitter_id: 
+    twitter_id: yukiyalien
     # Twitter site
-    twitter_site: 
+    twitter_site: 'https://twitter.com/yukiyalien'
     # Google+ profile link
     google_plus: 
 # Navigation bar link settings
@@ -34,14 +34,25 @@ navbar:
         About: /about
     # Navigation bar links to be shown on the right
     links:
-        Download on GitHub:
-            icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+        Twitter:
+            icon: fab fa-twitter
+            url: 'https://twitter.com/yukiyalien'
+        Mastodon:
+            icon: fab fa-mastodon
+            url: 'https://best-friends.chat/@Yukiya'
 # Footer section link settings
 footer:
     # Links to be shown on the right of the footer section
-
-    # CC云々消してます！！！！！！！！！！！！！！
+    links:
+        CC BY-NC-SA 4.0:
+            icon: fab fa-creative-commons
+            url: 'https://creativecommons.org/licenses/by-sa/4.0/deed.ja'
+        BY:
+            icon: fab fa-creative-commons-by
+            url: 'https://creativecommons.org/licenses/by-sa/4.0/deed.ja'
+        SA:
+            icon: fab fa-creative-commons-sa
+            url: 'https://creativecommons.org/licenses/by-sa/4.0/deed.ja'
 
 # Article display settings
 article:
@@ -113,7 +124,7 @@ sidebar:
     right:
         # Whether the right sidebar is sticky when page scrolls
         # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/make-a-sidebar-sticky-when-page-scrolls/
-        sticky: false
+        sticky: true
 # Sidebar widget settings
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
@@ -129,13 +140,13 @@ widgets:
         # Author's current location to be shown in the profile widget
         location: Chiba, Japan
         # Path or URL to the avatar to be shown in the profile widget
-        avatar: /images/avatar.png
+        avatar: https://github.com/yukiyalien.png
         # Email address for the Gravatar to be shown in the profile widget
         gravatar: 
         # Whether to show avatar image rounded or square
-        avatar_rounded: false
+        avatar_rounded: true
         # Path or URL for the follow button
-        follow_link: 'https://github.com/ppoffice'
+        follow_link: 'https://twitter.com/intent/follow?screen_name=yukiyalien'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
@@ -143,18 +154,21 @@ widgets:
                 url: 'https://github.com/yukiyalien'
             Mastodon:
                 icon: fab fa-mastodon
-                url: 'https://best-friends.chat'
+                url: 'https://best-friends.chat/@Yukiya'
             Twitter:
                 icon: fab fa-twitter
                 url: 'https://twitter.com/yukiyalien'
             Website:
                 icon: fas fa-home
                 url: 'https://yukiya.me'
+            RSS:
+                icon: fas fa-rss
+                url: /atom.xml
     -
         # Widget name
         type: toc
         # Where should the widget be placed, left or right
-        position: left
+        position: right
     -
         # Widget name
         type: links
@@ -162,16 +176,14 @@ widgets:
         position: left
         # Links to be shown in the links widget
         links:
-            Hexo: 'https://hexo.io'
-            PPOffice: 'https://github.com/ppoffice'
+            Website: 'https://yukiya.me'
+            Twitter: 'https://twitter.com/yukiyalien'
+            Mastodon: 'https://best-friends.chat/@Yukiya'
+            GitHub: 'https://github.com/yukiyalien'
+            Donate with Kyash: 'https://yukiya.me/kyash'
     -
         # Widget name
         type: category
-        # Where should the widget be placed, left or right
-        position: left
-    -
-        # Widget name
-        type: tagcloud
         # Where should the widget be placed, left or right
         position: left
     -
@@ -188,7 +200,13 @@ widgets:
         # Widget name
         type: tag
         # Where should the widget be placed, left or right
-        position: right
+        position: left
+    -
+        # Widget name
+        type: tagcloud
+        # Where should the widget be placed, left or right
+        position: left
+
 # Other plugin settings
 plugins:
     # Enable page animations
@@ -246,3 +264,9 @@ toc:
     position: after
     symbol: '#'
     style: header-anchor
+
+
+feed:
+type: atom
+path: atom.xml
+limit: 20

@@ -18,7 +18,7 @@ widget:
     recents: '最近の記事'
     links: 'リンク'
     tag_cloud: 'タグクラウド'
-    catalogue: 'カタログ'
+    catalogue: '目次'
 article:
     more: 'Read More'
     comments: 'コメント'

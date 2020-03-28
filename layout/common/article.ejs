@@ -26,7 +26,7 @@
                 <span class="level-item has-text-grey">
                     <% const words = word_count(post._content); %>
                     <% const time = duration((words / 150.0) * 60, 'seconds') %>
-                    <% var para = "約" %>
+                    <% var para = "たぶん 約" %>
                     <div><%= para %></div>
                     <%= `${time.locale(get_config('language', 'ja')).humanize() } ${ __('article.read')} (${ __('article.about') } ${ words } ${ __('article.words') })` %>
                 </span>
