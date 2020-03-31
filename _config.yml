@@ -44,7 +44,7 @@ navbar:
 footer:
     # Links to be shown on the right of the footer section
     links:
-        CC BY-NC-SA 4.0:
+        CC BY-SA 4.0:
             icon: fab fa-creative-commons
             url: 'https://creativecommons.org/licenses/by-sa/4.0/deed.ja'
         BY:
