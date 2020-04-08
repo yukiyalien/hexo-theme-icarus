@@ -31,6 +31,7 @@ navbar:
         Archives: /archives
         Categories: /categories
         Tags: /tags
+        Donate: /donate
         About: /about
     # Navigation bar links to be shown on the right
     links:
@@ -180,7 +181,7 @@ widgets:
             Twitter: 'https://twitter.com/yukiyalien'
             Mastodon: 'https://best-friends.chat/@Yukiya'
             GitHub: 'https://github.com/yukiyalien'
-            Donate with Kyash: 'https://yukiya.me/kyash'
+            Donate: 'https://blog.yukiya.me/donate'
     -
         # Widget name
         type: category
